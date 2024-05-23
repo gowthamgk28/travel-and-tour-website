@@ -1,0 +1,177 @@
+
+.main{
+    width: 100%;
+    
+    
+}
+
+        .title{
+            position: relative;
+            width: max-content;
+            color: rgb(161, 157, 157);
+            margin: 1rem 0;
+            z-index: 2 ;
+
+            
+        }
+            &::after{
+                position: absolute;
+                content: '';
+                background-color:hsl(187, 85%, 43%);
+                height: 5px;
+                width: 120px;
+                right: 0;
+                bottom: 5px;
+                z-index: -1;
+            }
+
+.sectitle{
+    padding: 5px;
+    
+}                     
+  .main-container{
+    padding: 10px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    gap: 70px;
+    margin-left: 30px;
+    
+     
+  } 
+
+
+.setcontent{
+    justify-content:center;
+    gap: 1.5rem;
+    
+}
+    .singledestination{
+        height:fit-content;
+        display: grid;
+        row-gap: 10px;
+        border-radius: 10px;
+        align-items: center;
+        background: rgb(225,225, 235);
+        box-shadow: 0 2px 4px gray;
+        overflow: hidden;
+        
+        
+    }
+        &:hover{
+            background: rgb(255, 255, 255);
+            box-shadow: 1 4px 4px gray;
+            transition: .3s ease;
+
+        }
+        .imagediv{
+            height: 180px;
+            width: 100%;
+            overflow: hidden;
+        }
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: 2s ease;
+            }
+                &:hover{
+
+                    img{
+                        transform: scale(1.1);
+                    }
+                }
+        
+        .cardinfo{
+            padding: 1rem;
+        }
+            .desttitle{
+                color: black;
+                font-size: 1.25rem;
+            }
+            .continent-flex{
+                gap: 2.5rem;
+                
+                
+                
+
+                .icon{
+                  color:rgb(27, 224, 27);
+                  font-size: 18px;
+
+
+                }
+            }
+            .fees-flex{
+                width: 100%;
+                justify-content: space-between;
+                padding: 1rem;
+                margin: 1rem 0;
+                border-top: 1.5px solid gray;
+                border-bottom: 1.5px solid gray;
+            }
+                .grade{
+                    color: black;
+                    max-width: 100px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    float: left;
+                    padding: 10px;
+                    font-size: 20px;
+                    margin-top: -10px;
+
+                }
+                    small{
+                        text-align: center;
+                        background:linear-gradient(to right, rgb(5, 5, 177),red);
+                        border-radius: 1rem;
+                        color: wheat;
+                        padding: 1px 10px;
+                        font-size: 10px;
+                    }
+                
+                .price{
+                    font-size: 2rem;
+                    color: black;
+                    float: right;
+                    padding: -20px;
+                    margin-top: -40px;
+                    margin-right: 10px;
+                    
+
+                }
+            
+            .desc{
+                font-size: 13.5px;
+                color: rgb(17, 16, 16);
+                font-weight: 500;
+                margin-bottom: -24px;
+                margin-top: -15px;
+
+            }
+            .btn-flex{
+                margin-top: 1rem;
+                color: rgb(17, 16, 16);
+                font-weight: 600;
+                justify-content: space-between;
+                gap: .5rem;
+                background-color:hsl(187, 85%, 43%) ;
+                padding: 10px;
+                width: fit-content;
+                margin: 20px ;
+                border-radius: 10px ;
+                outline: none;
+                cursor: pointer;
+                height: 30px;
+
+
+                .icon{
+                    align-self: center;
+                    font-size: 18px;
+                }
+            }
+        
+    
+

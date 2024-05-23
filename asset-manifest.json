@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a292fc01.css",
+    "main.js": "/static/js/main.45c96131.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/seavideo.mp4": "/static/media/seavideo.3b501cc5cd2a0c6bbf7f.mp4",
+    "static/media/img10.jpg": "/static/media/img10.fea7bdfb8db0b3132592.jpg",
+    "static/media/nature-water-sea-travel-wallpaper-preview.jpg": "/static/media/nature-water-sea-travel-wallpaper-preview.605557d4041b3e778be8.jpg",
+    "static/media/koh-toa-snorkelling-1024x561.jpg": "/static/media/koh-toa-snorkelling-1024x561.6568a474649dff8b2867.jpg",
+    "static/media/hallstatt-3609863_640.jpg": "/static/media/hallstatt-3609863_640.392e26f86dd513734b3a.jpg",
+    "static/media/img15.jpg": "/static/media/img15.b7806c1edc5696e61cc8.jpg",
+    "static/media/image5.avif": "/static/media/image5.6386a63e1b155784ae8b.avif",
+    "static/media/img11.jpg": "/static/media/img11.7ac4e948dadfefbd28f6.jpg",
+    "static/media/img16.jpg": "/static/media/img16.3fe545d4dbdfaa860e9d.jpg",
+    "static/media/jpg": "/static/media/0e13423cd11c1ce60c364e9a2bb34556.5a2ff56f95ed52b1948e.jpg",
+    "index.html": "/index.html",
+    "main.a292fc01.css.map": "/static/css/main.a292fc01.css.map",
+    "main.45c96131.js.map": "/static/js/main.45c96131.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a292fc01.css",
+    "static/js/main.45c96131.js"
+  ]
+}
